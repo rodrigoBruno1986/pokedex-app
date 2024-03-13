@@ -1,0 +1,29 @@
+:root {
+    --primary: #e99401;
+    --black: #262626;
+    --red: #FF514F;
+    --white: #FFFFFF;
+    --fuente-principal: 'Flexo-Demi', sans-serif;
+  }
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-size: 2rem;
+    font-family: var(--fuente-principal);
+    line-height: 1.5;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1, h2 {
+    margin: 0;
+    font-family: var(--fuente-principal);
+  }
